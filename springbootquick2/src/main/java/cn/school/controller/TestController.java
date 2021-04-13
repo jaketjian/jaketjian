@@ -10,6 +10,8 @@ public class TestController {
     public ModelAndView gotoTest(){
         ModelAndView mv=new ModelAndView();
         String init="你好，欢迎来到德莱联盟";
+        char a='a';
+        int i=a;
         mv.setViewName("");
         return mv;
     }
