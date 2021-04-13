@@ -1,26 +1,28 @@
 #应用服务web端口
 server:
-  port: 8081
+  port: 80
 person:
   name: zhangsan
   age: 18
   addr: guangxi
+  adr: hhh
 Student: {name: lisi,age: 22,gender: girl}
-
 #配置数组、集合
-city:
-  - beijing
-  - hainan
-  - yunnan
+cities:
+  city:
+    - beijing
+    - hainan
+    - yunnan
 city2: [beijing,hainan,yunan]
-girl:
-  - name: 凤姐
-    age: 22
-    adr: 四川
-  - name: 美女
-    age: 33
-    gender: girl
-    adr: 南宁
+girls:
+  girl:
+    - name: 凤姐
+      age: 22
+      adr: 四川
+    - name: 美女
+      age: 33
+      gender: girl
+      adr: 南宁
 帅哥:
   - name: 李才汶
     age: 21
@@ -40,9 +42,9 @@ Map:
   火影忍者: 2333;
 
 #四大名著
-四大名著:
-  - 西游记:
-      - 人物:
+books:
+   xiyouji:
+      - renwu:
           - 姓名: 猪八戒
             性别: 男
           - 姓名: 孙悟空
@@ -51,7 +53,7 @@ Map:
             性别: 男
           - 姓名: 沙悟净
             性别: 男
-      - 兵器:
+      - bingqi:
           - 名字: 定海神针
             重量: 100000t
           - 名字: 猪耙
@@ -62,20 +64,20 @@ Map:
           - 终级: 斗战胜佛
           - 终级: 净坛使者
           - 终级: 金蝉子
-      - 仙级:
+      - xianji:
           - 初级: 石猴
           - 初级: 猪刚鬣
-  - 红楼梦:
+   红楼梦:
       - 人物:
       - 兵器:
       - 成就:
       - 人级:
-  - 三国演义:
+   三国演义:
       - 人物:
       - 兵器:
       - 成就:
       - 地级:
-  - 水浒传:
+   水浒传:
       - 人物:
       - 兵器:
       - 成就:
